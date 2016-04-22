@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]">
   <listeners>
-    <listener class-name="edu.reporter.ITestNGReporter"/>
+    <listener class-name="edu.reporter.INGReporter"/>
   </listeners>
   <test name="Test(failed)" preserve-order="true">
     <classes>
@@ -16,7 +16,6 @@
       <class name="edu.reporter.NewTestTwo">
         <methods>
           <include name="beforeMethod"/>
-          <include name="TestThree"/>
           <include name="afterMethod"/>
         </methods>
       </class> <!-- edu.reporter.NewTestTwo -->

@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite">
+<suite name="OW Smoke Test Suite Name">
 <listeners>
-<listener class-name="edu.reporter.ITestNGReporter"/>
+<listener class-name="edu.reporter.INGReporter"/>
 </listeners>
-  <test name="Test">
+  <test name="OW Smoke Test Name">
     <classes>
       <class name="edu.reporter.NewTest"/>
       <class name="edu.reporter.NewTestTwo"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
+

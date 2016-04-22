@@ -8,8 +8,7 @@ import org.testng.annotations.AfterMethod;
 public class NewTestTwo {
   @Test
   public void TestThree() {
-	  INGReporter reporter = new INGReporter();
-	  reporter.printInitHTML(reporter.setDefaultPrinter());
+
   }
   @BeforeMethod
   public void beforeMethod() {
